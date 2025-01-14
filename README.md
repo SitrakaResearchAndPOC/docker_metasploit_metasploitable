@@ -139,7 +139,6 @@ search vsftpd
 ```
 run exploit : 
 ```
-```
 use 1
 ```
 ```
